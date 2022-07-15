@@ -9,7 +9,7 @@ public class UC3 {
 		//Dice roll
 		int dice = (int)((Math.random() * 6 + 1));
 		//Random Action generation
-		int Player_Action =(int)((Math.random() * 3));
+		int Player_Action =(int)(Math.random() * 3);
 		//start position of Player
 		int playerCurrentPosition = 0;
 		 switch(Player_Action)

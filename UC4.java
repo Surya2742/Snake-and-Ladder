@@ -15,10 +15,6 @@ public class UC4 {
 		    if(position == LADDER)
 		    {	
 		    	playerCurrentPosition += dice;
-		    if(playerCurrentPosition > 100)
-		    {
-		    	playerCurrentPosition -= dice;
-		    }
 		    System.out.println("Ladder moves forward "+ playerCurrentPosition);
 		    }
 		    else if(position == SNAKE)
